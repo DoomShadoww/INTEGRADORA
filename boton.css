@@ -1,0 +1,80 @@
+@media print {
+    .no-imprimir {
+      display: none;
+    }
+    body {
+      font-size: 50%;
+    }
+    
+    h1, h2, h3 {
+      font-size: 80%;
+    }
+    
+    p {
+      font-size: 70%;
+    }
+
+    main{
+      font-size: 75%;
+    }
+  }
+
+
+  
+  
+  @media print {
+    #noimp {
+      display: none;
+    }
+  }
+
+.no-imprimir{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+button:hover{
+    background-color: rgb(0, 153, 213);
+    color: rgb(0, 0, 0);
+}
+
+input:hover{
+    background-color: rgb(0, 136, 255);
+    color: white;
+
+}
+
+
+#bloquear:hover{
+
+  color: aliceblue;
+
+}
+
+@media print {
+  #fecha-hora {
+    display: inline;
+  }
+  
+ 
+}
+
+@media screen {
+  #fecha-hora{
+    display: none;
+  }
+  
+}
+
+
+
+#texto {
+  border: none;
+  outline: none;
+}
+
+#texto2 {
+  border: none;
+  outline: none;
+}
+

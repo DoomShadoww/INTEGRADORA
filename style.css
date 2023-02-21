@@ -1,0 +1,77 @@
+
+body{
+
+  background: #56CCF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+
+
+
+.difuminar {
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.6)), url(img/logo.jpg);
+  background-size: cover;
+  height: 1000px; /* Establece la altura de la imagen */
+}
+
+
+@media only screen and (max-width: 600px) {
+  .titulo {
+    font-size: small;
+  }
+}
+
+
+
+
+.titulo{
+  font-size: 8rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+.table{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+      
+}   
+
+td, th {
+    border: 1px solid black;
+    vertical-align: middle;
+  }
+
+#cols{
+
+    table-layout: fixed;
+    width: 5%;
+}
+
+#sticky {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+
+
+  #panes{
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+     
